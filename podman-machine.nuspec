@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>podman-machine</id>
+    <title>Podman Machine</title>
+    <version>$version$</version>
+    <description>Machine lets you create Podman hosts on your computer. It creates servers with Podman on them, then configures the Podman client to talk to them.</description>
+    <packageSourceUrl>https://github.com/lareeth/choco-podman-machine</packageSourceUrl>
+    <owners>lareeth</owners>
+    <projectUrl>https://podman.io/</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/boot2podman/machine/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/boot2podman/machine</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/boot2podman/machine/issues</bugTrackerUrl>
+    <iconUrl>https://raw.githubusercontent.com/lareeth/choco-podman-machine/master/podman.png</iconUrl>
+    <releaseNotes>https://github.com/boot2podman/machine/releases/tag/v$version$</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

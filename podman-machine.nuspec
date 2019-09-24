@@ -6,7 +6,7 @@
     <title>Podman Machine</title>
     <version>$version$</version>
     <authors>Podman Contributors</authors>
-	<summary>Lightweight Linux for Podman</summary>
+    <summary>Lightweight Linux for Podman</summary>
     <description>Machine lets you create Podman hosts on your computer. It creates servers with Podman on them, then configures the Podman client to talk to them.</description>
     <packageSourceUrl>https://github.com/lareeth/choco-podman-machine</packageSourceUrl>
     <owners>lareeth</owners>
@@ -14,6 +14,7 @@
     <licenseUrl>https://raw.githubusercontent.com/boot2podman/machine/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/boot2podman/machine</projectSourceUrl>
+    <tags>podman-machine podman oci containers</tags>
     <bugTrackerUrl>https://github.com/boot2podman/machine/issues</bugTrackerUrl>
     <iconUrl>https://raw.githubusercontent.com/lareeth/choco-podman-machine/master/podman.png</iconUrl>
     <releaseNotes>https://github.com/boot2podman/machine/releases/tag/v$version$</releaseNotes>

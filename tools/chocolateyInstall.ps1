@@ -1,6 +1,6 @@
 $packageName    = 'podman-machine'
-$url            = 'https://github.com/boot2podman/machine/releases/download/v0.16/podman-machine.windows-amd64.exe'
-$checksum       = '2AA33CAE99FC611FECB4E2679A752B48760AADCB7572A8C9FB6914237833CEB0'
+$url            = 'https://github.com/boot2podman/machine/releases/download/v0.17/podman-machine.windows-amd64.exe'
+$checksum       = 'A5424DEDED50004F0F7AC488B5415C782770B7DA58F609C50DF22739F956BEA3'
 $checksumType   = 'sha256'
 $validExitCodes = @(0)
  

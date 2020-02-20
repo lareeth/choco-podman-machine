@@ -2,8 +2,12 @@
 
 os: windows
 
+branches:
+  only: 
+    - master
+
 env:
-  - VERSION=0.17
+  - VERSION=0.16
 
 script:
   - choco pack --version $VERSION
